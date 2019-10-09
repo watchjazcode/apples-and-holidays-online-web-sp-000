@@ -58,7 +58,8 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  contacts.each do |person, contact_details_hash|
+  holiday_hash.each do |season, holiday|
+    
 end
 
 def all_holidays_with_bbq(holiday_hash)
